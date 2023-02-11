@@ -1,0 +1,185 @@
+body,label, input, textarea, button, select {
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #282828;
+    line-height: 1.375;
+}
+
+.login__logo {
+    position: relative;
+    height: 80px;
+}
+
+h1, .heading--1 {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.login__logo img {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 80px;
+}
+img {
+    max-width: 100%;
+}
+
+.login
+{
+    position: relative;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+} 
+
+form
+{
+    border: 0.09px solid rgba(0, 0, 0, 0.223);
+    width: 26%;
+    margin: 2%;
+    padding:-15%;
+} 
+
+#formNotes
+{
+    font-size: 100%;
+    font-weight: 499;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.stateCodes,
+.zipCode
+{
+    display: inline-block;
+    width: 46%;
+}
+
+.zipCode
+{
+    margin-left: 5%;
+}
+#optional
+{
+    color: grey;
+    font-weight: 10%;
+}
+
+input
+{
+    border: 0.09px solid rgba(0, 0, 0, 0.223);
+    margin-top: 1%;
+    position: relative;
+    width: 96%;
+    height: 4vh;
+    padding: 5px;
+}
+.submitButton
+{
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    font-size: 16px;
+    background-color: #8482a3;   
+    outline: none;
+    border: 0;
+}
+
+
+
+.submitButton:hover
+{
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    font-size: 16px;
+    background-color: #4384d4;   
+    outline: none;
+    transition: 0.5s;
+    border: 0;
+}
+
+select  
+{
+    width: 100%;
+    height: 6vh;
+    border: 0.09px solid rgba(0, 0, 0, 0.223);
+}
+
+label
+{
+    font-size: small;
+    font-weight: 550;
+    margin-bottom: 10%;
+}
+
+#dropdownNames
+{
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.stateCodes > input
+{
+    width: 50%;
+}
+
+.bottomLogin, p
+{
+    text-align: left;
+    margin: 8%;
+    font-size: 13px;
+    font-weight:450;
+}
+.bottomLogin, a
+{
+    cursor: pointer;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.bottomLogin, a:hover
+{
+    color: blue;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+
+div .Collapsible__trigger 
+{
+    width: 100%;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    display: grid;
+}
+
+#NameDetails, .login__brand, #busineeAddress, #addInfo
+{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.333);
+    padding: 20px;
+}
+
